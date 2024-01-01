@@ -1,0 +1,42 @@
+Problem
+When a natural number n less than 20 is entered, fill a one-dimensional array of length n and print the array in order.
+Let's fill in the blanks.
+
+
+Input
+A natural number n less than 20 is input.
+
+
+Output
+The natural numbers from 1 to the input number are printed in order.
+
+
+Input Example 1
+5
+
+Output Example 1
+1 2 3 4 5 
+
+Input Example 2
+6
+
+Output Example 2
+1 2 3 4 5 6 
+
+-----------------------------------------------------------------------------
+answer=
+
+#include <bits/stdc++.h>
+
+int main(){
+	int n;
+	scanf("%d", &n);
+	int arr[n];
+	for(int i=0; i<n; i++){
+		arr[i]=i+1;
+	}
+	for(int i=0; i<n; i++){
+		printf("%d ", arr[i]);
+	}
+	return 0;
+}

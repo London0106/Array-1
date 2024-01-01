@@ -1,0 +1,31 @@
+Problem
+Let's modify the program on the right to initialize an integer array of 20 lengths to zero.
+
+
+Input
+There is no input
+
+
+Output
+Output “0” for 20 times.
+
+
+Input Example 1
+입력이 없습니다
+
+Output Example 1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+---------------------------------------------------
+answer=
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int arr[20]={0};
+	for(int i=0; i<20; i++){
+		printf("%d ", arr[i]);
+	}
+	return 0;
+}

@@ -1,0 +1,25 @@
+Problem
+The following program is an example that can confirm that any value is included if not initialized.
+Let's do it ourselves and check it out.
+
+
+Don't worry about the wrong answer, just check it and move on.
+*No modifications to be made
+
+
+Input
+No input is given.
+
+
+Output
+See what is printed on the console.
+
+------------------------------------------------------------------------------------
+answer=
+
+#include<cstdio>
+int main(){
+    int arr[3];
+    printf("%d %d %d",arr[0],arr[1],arr[2]);
+    return 0;
+}

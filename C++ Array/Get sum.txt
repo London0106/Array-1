@@ -1,0 +1,47 @@
+Problem
+The program on the right is designed to input a number of integers, up to 20, and then calculate the sum of these integers.
+Please fill in the blanks.
+
+
+
+If there is only one statement in the 'for' loop, you can omit the curly braces!
+
+
+Input
+The first line contains an integer 'n' up to 20.
+The second line contains 'n' integers separated by spaces.
+
+
+Output
+Print the sum of the 'n' integers.
+
+
+Input Example 1
+4
+1 2 3 4
+
+Output Example 1
+10
+
+Input Example 2
+5
+1 3 5 7 9
+
+Output Example 2
+25
+
+-----------------------------------------------------------------
+answer=
+
+#include<cstdio>
+int main(){
+    int arr[20];
+    int n,sum=0;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+        scanf("%d",&arr[i]);
+    for(int i=0;i<n;i++)
+        sum += arr[i];
+    printf("%d", sum);
+    return 0;
+}

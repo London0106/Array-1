@@ -1,0 +1,40 @@
+Problem
+The program on the right declares an integer one-dimensional array of size 5, inputs 5 integers, stores them in the array, and then prints them out as is.
+Please fill in the blanks so that this program functions correctly.
+
+
+Input
+Five integers are input separated by spaces.
+
+
+Output
+Print the five input integers in order.
+
+
+Input Example 1
+1 2 3 4 5
+
+Output Example 1
+1 2 3 4 5
+
+Input Example 2
+5 4 3 2 1
+
+Output Example 2
+5 4 3 2 1
+
+---------------------------------------------------------------------------
+answer=
+
+#include <bits/stdc++.h>
+
+int main(){
+	int arr[5];
+	for(int i=0; i<5; i++){
+		scanf("%d", &arr[i]);
+	}
+	for(int i=0; i<5; i++){
+		printf("%d ", arr[i]);
+	}
+	return 0;
+}

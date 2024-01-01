@@ -1,0 +1,43 @@
+Problem
+Receive integers n and k and output the number that is given as the kth integer out of the n numbers.
+(However, k is an integer less than or equal to n.)
+
+
+Input
+Integers n and k are given in the first line.(0<k<=N<20)
+In the second line, n integers are given with spaces between them.
+
+
+Output
+Output the k-th number of given numbers.
+
+
+Input Example 1
+5 3
+1 2 3 4 5
+
+Output Example 1
+3
+
+Input Example 2
+7 2
+2 3 4 5 6 7 8
+
+Output Example 2
+3
+
+--------------------------------------------------------------------------
+answer=
+
+#include <bits/stdc++.h>
+
+int main(){
+	int n,k;
+	scanf("%d %d", &n, &k);
+	int arr[n];
+	for(int i=0; i<n; i++){
+		scanf("%d", &arr[i]);
+	}
+	printf("%d", arr[k-1]);
+	return 0;
+}

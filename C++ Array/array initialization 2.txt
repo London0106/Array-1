@@ -1,0 +1,28 @@
+Problem
+In the previous problem, you declared and initialized an integer one-dimensional array.
+This time, declare a float-type one-dimensional array of size 5 and initialize it with 5.5, 4.4, 3.3, 2.2, and 1.1.
+
+
+Input
+There is no input.
+
+
+Output
+Print 5.5 4.4 3.3 2.2 1.1.
+
+
+Input Example 1
+입력이 없습니다
+
+Output Example 1
+5.5 4.4 3.3 2.2 1.1
+
+--------------------------------------------------------------------------------
+answer=
+
+#include<cstdio>
+int main(){
+    float arr[5] = {5.5,4.4,3.3,2.2,1.1};
+    printf("%.1lf %.1lf %.1lf %.1lf %.1lf",arr[0],arr[1],arr[2],arr[3],arr[4]);
+    return 0;
+}

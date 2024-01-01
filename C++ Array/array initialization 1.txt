@@ -1,0 +1,29 @@
+Problem
+The program on the right initializes an integer array of size 5 and sets it to {5, 4, 3, 2, 1}, then it prints the array. Please fill in the blanks.
+
+
+Input
+There is no input.
+
+
+Output
+Print 5 4 3 2 1.
+
+
+Input Example 1
+입력이 없습니다
+
+Output Example 1
+5 4 3 2 1
+
+------------------------------------------------------------------
+answer=
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int arr[5]={5,4,3,2,1};
+	printf("%d %d %d %d %d", arr[0], arr[1], arr[2], arr[3], arr[4]);
+	return 0;
+}
